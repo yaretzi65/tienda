@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Página de Yaretzi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilos internos para simplificar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #Container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            padding: 10px;
+        }
+        nav ul li a img {
+            display: block;
+            margin: 0 auto;
+        }
+        #content {
+            width: 100%;
+            float: left;
+        }
+        .article {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+        }
+        aside {
+            width: 100%;
+            float: left;
+            margin-top: 20px;
+        }
+        footer {
+            clear: both;
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #006699;
+            color: #FFFFCC;
+        }
+        @media (max-width: 768px) {
+            /* Estilos para pantallas más pequeñas */
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            nav ul li a img {
+                width: 100%;
+                height: auto;
+            }
+            .article {
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="Container">
+    <header>
+        <h1>BOUTIQUE Yaretzi</h1>
+        <h2>Marcas</h2>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="CONTACTO.html">
+                    CONTACTO
+                </a>
+            </li>
+            <li>
+                <a href="TIENDA ZARA.html">
+                    <img src="saralogo.png" alt="ZARA">
+                    ZARA
+                </a>
+            </li>
+            <li>
+                <a href="TIENDA VERSACE.html">
+                    <img src="versace.png" alt="Versace">
+                    VERSACE
+                </a>
+            </li>
+            <li>
+                <a href="TIENDA LOUIS VUITTON.html">
+                    <img src="louis.jpg" alt="Louis Vuitton">
+                    LOUIS VUITTON
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="clearfix"></div>
+    <section id="content">
+        <article class="article">
+            <h2>INFORMACIÓN GENERAL</h2>
+            <p>YARETZI VANNESA DOMINGUEZ PALESTINA</p>
+            <p>CECYTE CHIGNAHUAPAN</p>
+            <p>ALUMNO</p>
+        </article>
+        <article class="article">
+            <h2>INTERESES</h2>
+            <p>EDUCACIÓN</p>
+            <p>FAMILIA</p>
+            <p>AMIGOS</p>
+            <p>TECNOLOGÍA</p>
+        </article>
+        <article class="article">
+            <h2>Contacto</h2>
+            <p>7971465234</p>
+        </article>
+    </section>
+    <aside>
+        <h2>Barra lateral</h2>
+        <form>
+            <input type="text">
+            <input type="submit" value="Buscar">
+        </form>
+    </aside>
+    <div class="clearfix"></div>
+    <footer>
+        <marquee behavior="alternate">
+            <b>YARE D.P. &copy; 2024</b>
+        </marquee>
+    </footer>
+</div>
+</body>
+</html>
